@@ -3,7 +3,7 @@
 
 手写类似于Gin框架，具体用法如下：
 
-`r := gee.New()
+r := gee.New()
 	r.SetFuncMap(template.FuncMap{
 		"FormatAsDate": FormatAsDate,
 	})
